@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "slug": "wireless-headphones",
+    "price": 99.99,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "image": "/headphones.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Stand",
+    "slug": "smartphone-stand",
+    "price": 19.99,
+    "description": "Adjustable smartphone stand for desk or bedside.",
+    "image": "/phone-stand.png"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "slug": "bluetooth-speaker",
+    "price": 49.99,
+    "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+    "image": "/speaker.png"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse",
+    "slug": "gaming-mouse",
+    "price": 59.99,
+    "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+    "image": "/mouse.png"
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Keyboard",
+    "slug": "mechanical-keyboard",
+    "price": 89.99,
+    "description": "Durable mechanical keyboard with tactile feedback.",
+    "image": "/keyboard.png"
+  },
+  {
+    "id": 6,
+    "name": "USB-C Hub",
+    "slug": "usb-c-hub",
+    "price": 29.99,
+    "description": "Multi-port USB-C hub with HDMI and Ethernet support.",
+    "image": "/images/usb-c-hub.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Laptop Stand",
+    "slug": "laptop-stand",
+    "price": 34.99,
+    "description": "Foldable laptop stand with adjustable height.",
+    "image": "/images/laptop-stand.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Noise-Cancelling Earbuds",
+    "slug": "noise-cancelling-earbuds",
+    "price": 79.99,
+    "description": "Compact earbuds with active noise cancellation.",
+    "image": "/images/noise-cancelling-earbuds.jpg"
+  },
+  {
+    "id": 9,
+    "name": "4K Monitor",
+    "slug": "4k-monitor",
+    "price": 299.99,
+    "description": "27-inch 4K UHD monitor with ultra-thin bezels.",
+    "image": "/images/4k-monitor.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Tracker",
+    "slug": "fitness-tracker",
+    "price": 49.99,
+    "description": "Waterproof fitness tracker with heart rate monitoring.",
+    "image": "/images/fitness-tracker.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Action Camera",
+    "slug": "action-camera",
+    "price": 199.99,
+    "description": "Waterproof action camera with 4K recording.",
+    "image": "/images/action-camera.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Wireless Charger",
+    "slug": "wireless-charger",
+    "price": 39.99,
+    "description": "Fast wireless charger compatible with multiple devices.",
+    "image": "/images/wireless-charger.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Smartwatch",
+    "slug": "smartwatch",
+    "price": 149.99,
+    "description": "Stylish smartwatch with fitness tracking and notifications.",
+    "image": "/images/smartwatch.jpg"
+  },
+  {
+    "id": 14,
+    "name": "External SSD",
+    "slug": "external-ssd",
+    "price": 129.99,
+    "description": "High-speed external SSD with 1TB of storage.",
+    "image": "/images/external-ssd.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Streaming Webcam",
+    "slug": "streaming-webcam",
+    "price": 89.99,
+    "description": "HD streaming webcam with autofocus and built-in mic.",
+    "image": "/images/streaming-webcam.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Desk Lamp",
+    "slug": "desk-lamp",
+    "price": 24.99,
+    "description": "LED desk lamp with adjustable brightness and color temperature.",
+    "image": "/images/desk-lamp.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Gaming Chair",
+    "slug": "gaming-chair",
+    "price": 249.99,
+    "description": "Ergonomic gaming chair with lumbar support and recline.",
+    "image": "/images/gaming-chair.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Portable Power Bank",
+    "slug": "portable-power-bank",
+    "price": 29.99,
+    "description": "10,000mAh portable power bank with fast charging.",
+    "image": "/images/portable-power-bank.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Virtual Reality Headset",
+    "slug": "virtual-reality-headset",
+    "price": 349.99,
+    "description": "Immersive virtual reality headset with 3D audio.",
+    "image": "/images/virtual-reality-headset.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Smart Thermostat",
+    "slug": "smart-thermostat",
+    "price": 199.99,
+    "description": "Energy-efficient smart thermostat with mobile app control.",
+    "image": "/images/smart-thermostat.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Noise-Cancelling Headphones",
+    "slug": "noise-cancelling-headphones",
+    "price": 159.99,
+    "description": "Over-ear noise-cancelling headphones for immersive audio.",
+    "image": "/images/noise-cancelling-headphones.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Smart Light Bulb",
+    "slug": "smart-light-bulb",
+    "price": 12.99,
+    "description": "Energy-saving smart bulb with voice control.",
+    "image": "/images/smart-light-bulb.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Tablet Stand",
+    "slug": "tablet-stand",
+    "price": 21.99,
+    "description": "Adjustable stand compatible with all tablets.",
+    "image": "/images/tablet-stand.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Gaming Headset",
+    "slug": "gaming-headset",
+    "price": 89.99,
+    "description": "High-quality gaming headset with a noise-cancelling mic.",
+    "image": "/images/gaming-headset.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Electric Toothbrush",
+    "slug": "electric-toothbrush",
+    "price": 39.99,
+    "description": "Smart electric toothbrush with multiple cleaning modes.",
+    "image": "/images/electric-toothbrush.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Wi-Fi Range Extender",
+    "slug": "wifi-range-extender",
+    "price": 29.99,
+    "description": "Extend your Wi-Fi signal with this compact device.",
+    "image": "/images/wifi-range-extender.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Smart Doorbell",
+    "slug": "smart-doorbell",
+    "price": 149.99,
+    "description": "Video doorbell with motion detection and app alerts.",
+    "image": "/images/smart-doorbell.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Electric Scooter",
+    "slug": "electric-scooter",
+    "price": 399.99,
+    "description": "Compact electric scooter for short commutes.",
+    "image": "/images/electric-scooter.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Digital Photo Frame",
+    "slug": "digital-photo-frame",
+    "price": 59.99,
+    "description": "Display your favorite photos with this digital frame.",
+    "image": "/images/digital-photo-frame.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Smart Plug",
+    "slug": "smart-plug",
+    "price": 14.99,
+    "description": "Control appliances remotely with this smart plug.",
+    "image": "/images/smart-plug.jpg"
+  }
+]
