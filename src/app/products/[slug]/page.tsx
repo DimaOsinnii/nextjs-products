@@ -51,7 +51,7 @@ export default async function Product({ params }: { params: Params }) {
 
   return (
     <Page>
-      <div className="flex items-center lg:items-start flex-col justify-between lg:flex-row pt-10 md:pt-20 gap-10">
+      <div className="flex items-center lg:items-start flex-col  lg:flex-row pt-10 md:pt-20 gap-12">
         <div className="relative overflow-hidden bg-gray-300 rounded border border-gray-300 ">
           <ClientImage
             width={500}

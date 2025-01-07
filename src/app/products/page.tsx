@@ -33,8 +33,6 @@ export default async function Products(props: { searchParams: SearchParams }) {
 
   const { data, total } = await findProducts({ search, offset });
 
-  console.dir({ data, total });
-
   return (
     <Page>
       <div className="flex flex-col justify-between sm:flex-col lg:flex-row gap-3">

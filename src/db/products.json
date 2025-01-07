@@ -85,7 +85,7 @@
     "slug": "action-camera",
     "price": 199.99,
     "description": "Waterproof action camera with 4K recording.",
-    "image": "/images/action-camera.jpg"
+    "image": "/action-camera.png"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "slug": "wireless-charger",
     "price": 39.99,
     "description": "Fast wireless charger compatible with multiple devices.",
-    "image": "/images/wireless-charger.jpg"
+    "image": "/wireless-charger.png"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "slug": "smartwatch",
     "price": 149.99,
     "description": "Stylish smartwatch with fitness tracking and notifications.",
-    "image": "/images/smartwatch.jpg"
+    "image": "/smart-watch.png"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "slug": "external-ssd",
     "price": 129.99,
     "description": "High-speed external SSD with 1TB of storage.",
-    "image": "/images/external-ssd.jpg"
+    "image": "/external-ssd.png"
   },
   {
     "id": 15,
@@ -213,7 +213,7 @@
     "slug": "smart-doorbell",
     "price": 149.99,
     "description": "Video doorbell with motion detection and app alerts.",
-    "image": "/images/smart-doorbell.jpg"
+    "image": "/smart-doorbell.png"
   },
   {
     "id": 28,
