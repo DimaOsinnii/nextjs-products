@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+
 import Page from '@/components/page';
 
 export const revalidate = false;

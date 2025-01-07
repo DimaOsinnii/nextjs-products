@@ -1,6 +1,7 @@
-import { navigation } from '@/config';
 import Link from 'next/link';
 import Image from 'next/image';
+
+import { navigation } from '@/config';
 
 export default function Footer() {
   return (

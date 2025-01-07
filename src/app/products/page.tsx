@@ -6,9 +6,10 @@ import Link from 'next/link';
 import Page from '@/components/page';
 import ClientImage from '@/components/client-image';
 
-import Filters from './filters';
 import { PAGE_SIZE } from '@/config';
 import { findProducts } from '@/db/products';
+
+import Filters from './filters';
 
 export const metadata: Metadata = {
   title: 'Products | TechCart',

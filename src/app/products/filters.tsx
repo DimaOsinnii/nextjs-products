@@ -1,9 +1,11 @@
 'use client';
 
-import SearchInput from '@/components/search-input';
 import { useState } from 'react';
-import { useDebounceFunction } from '@/hooks/useDebounceValue';
 import { useRouter, useSearchParams } from 'next/navigation';
+
+import { useDebounceFunction } from '@/hooks/useDebounceValue';
+
+import SearchInput from '@/components/search-input';
 
 export default function Filters() {
   const searchParams = useSearchParams();

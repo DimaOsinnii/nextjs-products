@@ -1,8 +1,11 @@
+import type { Metadata } from 'next';
+
+import { notFound } from 'next/navigation';
+
+import { findProductBySlug, findProductsSlugs } from '@/db/products';
+
 import Page from '@/components/page';
 import ClientImage from '@/components/client-image';
-import { Metadata } from 'next';
-import { findProductBySlug, findProductsSlugs } from '@/db/products';
-import { notFound } from 'next/navigation';
 
 type Params = Promise<{ slug: string }>;
 

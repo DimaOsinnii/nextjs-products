@@ -1,10 +1,10 @@
 'use client';
-
 import { useState } from 'react';
-import { Dialog, DialogPanel, PopoverGroup } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Dialog, DialogPanel, PopoverGroup } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+
 import { navigation } from '@/config';
 
 export default function Header() {

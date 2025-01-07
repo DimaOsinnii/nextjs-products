@@ -1,5 +1,6 @@
 import clsx from 'clsx';
-import { PropsWithChildren } from 'react';
+import type { PropsWithChildren } from 'react';
+
 import Breadcrumbs from '@/components/breadcrumbs';
 
 interface PageProps {
