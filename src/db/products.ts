@@ -30,7 +30,5 @@ export async function findProducts(params: Partial<FindProductsParams> = {}) {
 }
 
 export async function findProductBySlug(params: { slug: string }) {
-  const { data } = await findProducts();
-
-  return data.find((product) => product.slug === params.slug);
+  return productsData.find((product) => product.slug === params.slug);
 }

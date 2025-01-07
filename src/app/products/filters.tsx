@@ -15,12 +15,10 @@ export default function Filters() {
   const [searchValue, setSearchValue] = useState(search);
 
   const handleDebouncedSearch = useDebounceFunction((value) => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams();
 
     if (value) {
       params.set('search', value as string);
-    } else {
-      params.delete('search'); // Remove the search param if the value is empty
     }
 
     replace(`?${params.toString()}`);

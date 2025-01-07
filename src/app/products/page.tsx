@@ -10,6 +10,7 @@ import { PAGE_SIZE } from '@/config';
 import { findProducts } from '@/db/products';
 
 import Filters from './filters';
+import Pagination from '@/components/pagination';
 
 export const metadata: Metadata = {
   title: 'Products | TechCart',
@@ -32,6 +33,8 @@ export default async function Products(props: { searchParams: SearchParams }) {
 
   const { data, total } = await findProducts({ search, offset });
 
+  console.dir({ data, total });
+
   return (
     <Page>
       <div className="flex flex-col justify-between sm:flex-col lg:flex-row gap-3">
@@ -40,7 +43,7 @@ export default async function Products(props: { searchParams: SearchParams }) {
       </div>
 
       {total === 0 ? <div className="text-7xl w-full text-center my-20">Not found</div> : null}
-      <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div className="my-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         {data.map((product) => (
           <div key={product.id} className="group relative">
             <ClientImage
@@ -64,6 +67,8 @@ export default async function Products(props: { searchParams: SearchParams }) {
           </div>
         ))}
       </div>
+
+      <Pagination totalCount={total} pageSize={PAGE_SIZE} />
     </Page>
   );
 }
