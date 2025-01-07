@@ -1,8 +1,8 @@
-import fetcher from '@/utils/fetcher';
 import { MetadataRoute } from 'next';
+import { findProductsSlugs } from '@/db/products';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const slugs = await fetcher<string[]>('/api/products/slugs');
+  const slugs = await findProductsSlugs();
 
   return [
     {

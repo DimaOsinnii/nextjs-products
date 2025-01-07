@@ -1,15 +1,14 @@
 import type { Metadata } from 'next';
-import type { Product } from '@/interfaces/product';
-import type { ListResponse, SearchParams } from '@/utils/types';
+import type { SearchParams } from '@/utils/types';
 
 import Link from 'next/link';
-
-import fetcher from '@/utils/fetcher';
 
 import Page from '@/components/page';
 import ClientImage from '@/components/client-image';
 
 import Filters from './filters';
+import { PAGE_SIZE } from '@/config';
+import { findProducts } from '@/db/products';
 
 export const metadata: Metadata = {
   title: 'Products | TechCart',
@@ -26,9 +25,11 @@ export const metadata: Metadata = {
 export default async function Products(props: { searchParams: SearchParams }) {
   const searchParams = await props.searchParams;
   const search = searchParams.search ?? '';
-  const page = searchParams.page ?? '1';
+  const pageParam = searchParams.page ?? '1';
+  const page = Number(pageParam) || 1;
+  const offset = (page - 1) * PAGE_SIZE;
 
-  const { data, total } = await fetcher<ListResponse<Product>>('/api/products', { query: { search, page } });
+  const { data, total } = await findProducts({ search, offset });
 
   return (
     <Page>
