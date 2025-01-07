@@ -1,0 +1,29 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 200 60"
+        fill="none"
+>
+    <!-- Icon: Circuit Board -->
+    <rect x="10" y="10" width="40" height="40" rx="8" fill="#4ade80" />
+    <circle cx="20" cy="20" r="3" fill="white" />
+    <circle cx="40" cy="20" r="3" fill="white" />
+    <circle cx="30" cy="30" r="3" fill="white" />
+    <path
+            d="M20 20L30 30M40 20L30 30"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+    />
+
+    <!-- Text -->
+    <text
+            x="70"
+            y="40"
+            font-family="Arial, sans-serif"
+            font-size="24"
+            font-weight="bold"
+            fill="#4ade80"
+    >
+        TechCart
+    </text>
+</svg>
